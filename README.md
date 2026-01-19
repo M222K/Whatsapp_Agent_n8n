@@ -2,6 +2,12 @@
 
 An automated WhatsApp AI agent built on **n8n** that handles doctor appointments, payments, and patient reminders without human intervention.
 
+## 📋 Prerequisites
+In order to execute this workflow, you must connect the following accounts in n8n:
+* **Google Sheets:** Required to read/write patient records and appointment logs.
+* **Stripe Test Account:** Required to generate payment links and process refunds (Test Mode credentials).
+* **WhatsApp Meta Developer Account:** Required to send and receive messages via the WhatsApp Business API.
+
 ## 🛠️ Tech Stack
 
 | Component | Technology | Role |
